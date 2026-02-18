@@ -1,0 +1,17 @@
+{
+	"geode": "5.0.0-beta.2",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "mwd264.stimulation-button",
+	"name": "Stimulation Button",
+	"version": "v1.0.0",
+	"developer": "MWD264",
+	"description": "Have you ever wanted to just click click click buttons on the geometry dash main menu? Well do i have a mod for you, for the low low price of one more download on my github repository you can get yourself a clean shiny big fat button on your screen that does nothing at all!",
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.0"
+	}
+}
