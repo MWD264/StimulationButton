@@ -12,7 +12,7 @@ class $modify(StimLayer, MenuLayer) {
 
 		}
 
-		log::debug("Hello from my MenuLayer::init hook! This layer has {} children.", this->getChildrenCount());
+		log::debug("it works yay(sarcasitcaly)::init hook! This layer has {} children.", this->getChildrenCount());
 
 		auto StimButton = CCMenuItemSpriteExtra::create(
 			CCSprite::createWithSpriteFrameName("GJ_button_01.png"),
@@ -32,4 +32,5 @@ class $modify(StimLayer, MenuLayer) {
 	void onStimButton(CCObject*) {
 		FLAlertLayer::create("Geode", "+1 Stimulation", "OK")->show();
 	}
+
 };
